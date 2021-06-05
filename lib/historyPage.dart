@@ -42,6 +42,8 @@ class HistoryPage extends StatelessWidget {
                         hintText: 'Username'),
                   ),
                   SizedBox(height: 15),
+                  Text('History', style: TextStyle(fontSize: 18)),
+                  SizedBox(height: 15),
                   historyCard("images/iphone.jpg", "Iphone 12", "\$900",
                       "5.0 (23 reviews)"),
                   historyCard("images/note20.jpg", "Note 20", "\$1000",
